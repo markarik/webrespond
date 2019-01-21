@@ -33,6 +33,6 @@ function btnswitchs(){
     
 
 
-    /* let button = document.querySelector(.videoswitch_btn');
-  button.addEventListener("click", () => {
-    console.log("Button clicked."); */
+    document.querySelector('.laptopform').addEventListener('submit',function(event){
+
+    })

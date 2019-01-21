@@ -314,11 +314,20 @@ font-family:'La Belle Aurore',cursive;
 .success{
     display: block;
     color: green;
-    border-color: green;
+    border-color: #008000;
 }
-.laptopform_title .laptopcard_title{
+.laptopform_title,.laptopcard_title{
     font-size: 3rem;
 }
-.inputname .inputlastname .inputemail{
+.inputname,.inputlastname,.inputemail{
     width: 100%; 
+}
+.inputname,.inputlastname,.inputemail,.input_submit{
+    font-size: 1rem;
+    border-radius: 0.5rem !important;
+    padding: 2rem 2.5rem;
+    background:rgba(0, 128, 0,0.6);
+    color: red;
+    border: none;
+
 }
