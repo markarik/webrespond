@@ -30,9 +30,43 @@ function btnswitchs(){
 
     eventlisteners(); 
     btnswitchs();
+    eventlistener();
+    
+
+function eventlistener(){
+    const ui = new UI();
+
+    document.querySelector('.laptopform').addEventListener('submit',function(event)
+    {
+        event.preventDefault();
+        const name =document.querySelector('.inputname').Value;
+        const LastName =document.querySelector('.inputlastname').Value;
+        const Email=document.querySelector('.inputemail').Value;
+
+
+let value = ui.checkEmpty(name,LastName,Email);
+
+console.log(value);
+    })
+}
+    
     
 
 
-    document.querySelector('.laptopform').addEventListener('submit',function(event){
+function UI(){
 
-    })
+    }
+
+    UI.prototype.checkEmpty = function(name,LastName,Email){
+        let result;
+        if(name =='' || LastName =='' || Email==''){
+            result = false;
+        }
+        else{
+            result = false;
+        }
+        return result;
+    }
+
+
+     
