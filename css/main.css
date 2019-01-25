@@ -93,7 +93,7 @@ font-family:'La Belle Aurore',cursive;
 }
 .banner_title{
     font-size: 2rem;
-    text-transform:capitalize;
+    
     color:#FEF0DB;
     text-transform: capitalize;
 }
@@ -287,7 +287,7 @@ font-family:'La Belle Aurore',cursive;
 }
 /* laptop */
 .laptop{
-    background: brown;
+    background: rgba(165, 42, 42,0.1);
     color: #7FFF00;
     text-transform: capitalize;
 }
@@ -324,10 +324,10 @@ font-family:'La Belle Aurore',cursive;
 }
 .inputname,.inputlastname,.inputemail,.input_submit{
     font-size: 1rem;
-    border-radius: 0.5rem !important;
-    padding: 2rem 2.5rem;
-    background:rgba(0, 128, 0,0.6);
+    /* border-radius: 0.5rem !important;
+    padding: 2rem 2.5rem; */
+    /*background:rgba(0, 128, 0,0.6);*/
     color: red;
-    border: none;
+    /* border: none; */
 
 }
